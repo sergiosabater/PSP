@@ -23,17 +23,19 @@ Ejemplo en código Java:
         
 ```
 //Definición de la clase Coche
+
 public class Coche { 
 
    //Atributos de clase
+   
    String marca;
    String modelo;
    double kilometros;
    String color;
 
    //Métodos de clase
+   
    void acelerar() {}
-
    void frenar() {}
 }
 ```
