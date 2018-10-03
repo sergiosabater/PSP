@@ -21,7 +21,7 @@ Estructura de una clase:
         
 Ejemplo en código Java:
         
-```
+```java
 public class Coche { 
 
    String marca;
