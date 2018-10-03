@@ -34,3 +34,8 @@ Si imaginásemos las clases en el mundo real en el que vivimos, podríamos decir
 sobre cómo debe ser un coche. Todos los coches son objetos de la clase **Coche**. La clase **Coche** contiene la definición  
 específica de un determinado coche (marca, modelo, color, etc), mientras que cada coche (Seat Ibiza azul, Peugeot 206 gris, Renault Clio verde, etc) es una instancia u objeto de dicha clase.
 
+Veamos un ejemplo gráfico:
+
+
+
+
