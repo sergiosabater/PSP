@@ -1,9 +1,6 @@
 # Clase
 La unidad fundamental de programación en Java es la **clase**. Un programa Java está formado por una o varias clases.  
 Las clases en Java son plantillas para crear objetos. Al menos una clase debe contener un método principal para poder ejecutar la aplicación.  
-Si imaginásemos las clases en el mundo real en el que vivimos, podríamos decir que la clase **Coche** es una plantilla  
-sobre cómo debe ser un coche. Todos los coches son objetos de la clase **Coche**. La clase **Coche** contiene la definición  
-específica de un determinado coche (color, marca, modelo, etc), mientras que cada coche es una instancia u objeto de dicha clase.
 
 Estructura de una clase:
 
@@ -33,3 +30,7 @@ public class Coche {
    void frenar() {}
 }
 ```
+Si imaginásemos las clases en el mundo real en el que vivimos, podríamos decir que la clase **Coche** es una plantilla  
+sobre cómo debe ser un coche. Todos los coches son objetos de la clase **Coche**. La clase **Coche** contiene la definición  
+específica de un determinado coche (marca, modelo, color, etc), mientras que cada coche (Seat Ibiza azul, Peugeot 206 gris, Renault Clio verde, etc) es una instancia u objeto de dicha clase.
+
