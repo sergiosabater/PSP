@@ -22,7 +22,8 @@ Estructura de una clase:
 Ejemplo en código Java:
         
 ```
-public class Coche { //Definición de la clase Coche
+//Definición de la clase Coche
+public class Coche { 
 
    //Atributos de clase
    String marca;
