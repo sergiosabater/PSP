@@ -1,15 +1,28 @@
 ```java
-public class ActividadValidarDNI {
+import java.util.*;
+
+public class ActividadJava {
+	
 	
 	public static void main(String[] args) { //Método main
+		Scanner sc = new Scanner (System.in); //Instanciamos la clase Scanner para obtener los datos.
+		boolean read = false; //Variable booleana que usamos para detener el bucle.
 		
-		String dni = "03496594L"; //String con el valor de DNI
-		
-		if(dni.length()!=9) { //Control de errores. Verificamos que la longitud introducida sea la correcta.
-			System.out.println("DNI incorrecto. Por favor, revise su dni");
-		}else {
-			System.out.println(ValidarNIF(dni)); //Invocamos el método creado e imprimimos el resultado por pantalla.
-		}//fin if-else
+		while(!read) {
+			System.out.println("Introduce tu dni: "); //Pedimos los datos al usuario.
+			String dni = sc.nextLine(); //Asignamos la entrada de texto a una variable de tipo String.
+			
+			if(dni.length()!=9) { //Control de errores. Verificamos que la longitud introducida sea la correcta.
+				System.out.println("DNI incorrecto. Por favor, reviselo.");
+			}else {
+				read = true;
+				if(ValidarNIF(dni)) { //Si el valor devuelto por el método es 'true' indicamos al usuario que es válido.
+					System.out.println("El DNI "+dni+" es válido.");
+				}else {
+					System.out.println("El DNI "+dni+" no es válido."); //Si el valor devuelto es 'false' indicamos que no es válido.
+				}
+			}//fin if-else
+		}
 	}//fin del método main
 	
 	public static boolean ValidarNIF (String dni) { //Método estático para validar el DNI.
@@ -29,4 +42,5 @@ public class ActividadValidarDNI {
 	}//fin del método ValidarNIF
 
 }//fin de la clase 
+
 ```
