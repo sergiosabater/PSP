@@ -1,3 +1,9 @@
+# Actividad Java - _Validar DNI_
+Implementa una clase Java que tenga un método estático “ValidarNIF” que reciba un string con un NIF y devuelva true o false si es válido o no en función de la letra.
+
+Acceso a la página principal de [ejercicios](http://blog.elinsti.com/index.php/programacion-de-servicios-y-procesos/).
+
+
 ```java
 import java.util.*;
 
