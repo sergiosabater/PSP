@@ -36,6 +36,8 @@ específica de un determinado coche (marca, modelo, color, etc), mientras que ca
 
 Veamos un ejemplo gráfico:
 
+![alt text](https://github.com/sergiosabater/PSP/blob/master/car-oop.png "Logo Title Text 1")
+
 
 
 
