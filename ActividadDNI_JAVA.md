@@ -2,8 +2,7 @@
 import java.util.*;
 
 public class ActividadJava {
-	
-	
+
 	public static void main(String[] args) { //Método main
 		Scanner sc = new Scanner (System.in); //Instanciamos la clase Scanner para obtener los datos.
 		boolean read = false; //Variable booleana que usamos para detener el bucle.
@@ -24,6 +23,7 @@ public class ActividadJava {
 			}//fin if-else
 		}
 	}//fin del método main
+	
 	
 	public static boolean ValidarNIF (String dni) { //Método estático para validar el DNI.
 		
