@@ -43,9 +43,10 @@ public class Quiniela {
 			}
 		}
 		
-		if(((conta1>5)&&(conta1<11))&&((contaX>2)&&(contaX<6))&&((conta2>3)&&(conta2<9))) { //Aplicamos las restricciones
+		//Aplicamos las restricciones
+		if(((conta1>5)&&(conta1<11))&&((contaX>2)&&(contaX<6))&&((conta2>3)&&(conta2<9))) {
 			cont++;
-			System.out.println((resultado)+" Linea: "+cont+" conta1: "+conta1+" contaX: "+contaX+" conta2: "+conta2);
+			System.out.println((resultado)+" Linea: "+cont);
 		}
 		
 		resultado="";
