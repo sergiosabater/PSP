@@ -22,13 +22,36 @@ public class Quiniela {
 		for (int l = 1; l < 4; l++) {
 		for (int m = 1; m < 4; m++) {
 		for (int n = 1; n < 4; n++) {
-		cont++;
+		
 		resultado += a + "" + b + "" + c + "" + d + "" + e + "" + f + "" + g + "" + h + "" + i + "" + j
 		+ "" + k + "" + l + "" + m +"" + n;
 		resultado = resultado.replace('2', 'X');
 		resultado = resultado.replace('3', '2');
-		System.out.println((resultado)+" Linea: "+cont);
+		
+		for (int p = 0; p < resultado.length(); p++) {
+			char letra = resultado.charAt(p);
+			switch(letra) {
+			case '1':
+				conta1++;
+				break;
+			case 'X':
+				contaX++;
+				break;
+			case '2':
+				conta2++;
+				break;
+			}
+		}
+		
+		if(((conta1>5)&&(conta1<11))&&((contaX>2)&&(contaX<6))&&((conta2>3)&&(conta2<9))) { //Aplicamos las restricciones
+			cont++;
+			System.out.println((resultado)+" Linea: "+cont+" conta1: "+conta1+" contaX: "+contaX+" conta2: "+conta2);
+		}
+		
 		resultado="";
+		conta1=0;
+		contaX=0;
+		conta2=0;
 		}}}}}}}}}}}}}}
 	}
 }
