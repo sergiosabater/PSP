@@ -1,8 +1,7 @@
 # Clase
-La unidad fundamental de programación en Java es la **clase**. Un programa Java está formado por una o varias clases.  
-Las clases en Java son plantillas para crear objetos. Al menos una clase debe contener un método principal para poder ejecutar la aplicación.  
+La unidad fundamental en los lenguajes de programación orientada a objetos (POO) es la **Clase**. Un programa puede estar formado por una o varias clases. Las clases son plantillas para crear objetos. Al menos una clase debe contener un método principal para poder ejecutar la aplicación. Los lenguajes de programación como Java o C++ incluyen la palabra reservada _class_ para definir una clase. 
 
-Estructura de una clase:
+Estructura general de una clase:
 
     • Cabecera
     
@@ -30,6 +29,8 @@ public class Coche {
    void frenar() {}
 }
 ```
+En este caso, la clase **Coche** contiene cuatro variables (marca, modelo, kilometros y color) que serán los atributos de cada objeto creado (o instanciado), y dos métodos (acelerar y frenar) que serán las "acciones" que podrá realizar cada objeto instanciado de **Coche**.
+
 Si imaginásemos las clases en el mundo real en el que vivimos, podríamos decir que la clase **Coche** es una plantilla  
 sobre cómo debe ser un coche. Todos los coches son objetos de la clase **Coche**. La clase **Coche** contiene la definición  
 específica de un determinado coche (marca, modelo, color, etc), mientras que cada coche (Seat Ibiza azul, Peugeot 206 gris, Renault Clio verde, etc) es una instancia u objeto de dicha clase.
@@ -39,6 +40,8 @@ Veamos un ejemplo gráfico:
 <p align="center">
   <img src="https://github.com/sergiosabater/PSP/blob/master/car-oop.png" width="350"/>
 </p>
+
+Por tanto, podemos concluir que cada cada coche, con sus característacas particulares, es un _objeto_ de la clase **Coche**, que sirve como una plantilla para crear esos objetos.
 
 
 
