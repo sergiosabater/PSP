@@ -28,7 +28,7 @@ public class Coche {
    void frenar() {}
 }
 ```
-En este caso, la clase **Coche** contiene tres variables (marca, modelo, kilometros y color) que serán los atributos de cada objeto creado (o instanciado), y dos métodos (acelerar y frenar) que serán las "acciones" que podrá realizar dicho objeto instanciado de **Coche**.
+En este caso, la clase **Coche** contiene tres variables (marca, modelo y color) que serán los atributos de cada objeto creado (o instanciado), y dos métodos (acelerar y frenar) que serán las "acciones" que podrá realizar dicho objeto instanciado de **Coche**.
 
 Si imaginásemos las clases en el mundo real en el que vivimos, podríamos decir que la clase **Coche** es una plantilla  
 sobre cómo debe ser un coche. Todos los diferentes coches existentes son objetos de la clase **Coche**. La clase **Coche** contiene la definición los atributos que puede tener un determinado coche (marca, modelo, color, etc), mientras que cada coche (Seat Ibiza azul, Peugeot 206 gris, Renault Clio verde, etc) posee unos atributos determinados y es una instancia de dicha clase.
