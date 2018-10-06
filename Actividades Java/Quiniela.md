@@ -4,9 +4,13 @@ Realizar un programa que muestre todas las combinaciones posibles (hasta 14 cara
 
 Debemos aplicar unas restricciones y solo se deben mostrar aquellas combinaciones en que:
 
+```
 - (1 > 5) y (1 < 11)
 - (X > 2) y (X < 6)
 - (2 > 3) y (2 < 9)
+```
+
+
 
 
 Este es el código realizado en Java:
