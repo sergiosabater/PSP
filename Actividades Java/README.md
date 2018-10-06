@@ -1,4 +1,7 @@
-En esta carpeta guardamos las actividades Java
+# Actividades Java
 
-[Actividad Quiniela en Java](../PSP/blob/master/Actividades Java/Quiniela.md)
+## En esta carpeta guardamos las actividades Java
 
+### Índice de contenido:
+
+- Actividad 1: [Quiniela en Java](https://github.com/sergiosabater/PSP/blob/master/Actividades%20Java/Quiniela.md)
