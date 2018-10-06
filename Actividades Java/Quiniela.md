@@ -1,4 +1,4 @@
-# Actividad Quiniela en Java
+# Actividad Java - _Quiniela_
 
 Realizar un programa que muestre todas las combinaciones posibles (hasta 14 caracteres) de 1, X, y 2.
 
