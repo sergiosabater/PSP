@@ -1,5 +1,15 @@
 # Actividad Quiniela en Java
-Este es el código realizdo en Java:
+
+Realizar un programa que muestre todas las combinaciones posibles (hasta 14 caracteres) de 1, X, y 2.
+
+Debemos aplicar unas restricciones y solo debe mostrar aquellas combinaciones en que:
+
+- (1 > 5) y (1 < 11)
+- (X > 2) y (X < 6)
+- (2 > 3) y (2 < 9)
+
+
+Este es el código realizado en Java:
 
 ```java
 public class Quiniela {
