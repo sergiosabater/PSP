@@ -7,7 +7,7 @@ Acceso a la página principal de [ejercicios](http://blog.elinsti.com/index.php/
 ```java
 import java.util.*;
 
-public class ActividadJava {
+public class ValidarNIF {
 
 	public static void main(String[] args) { //Método main
 		Scanner sc = new Scanner (System.in); //Instanciamos la clase Scanner para obtener los datos.
