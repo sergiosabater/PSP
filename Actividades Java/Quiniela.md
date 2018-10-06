@@ -2,7 +2,7 @@
 
 Realizar un programa que muestre todas las combinaciones posibles (hasta 14 caracteres) de 1, X, y 2.
 
-Debemos aplicar unas restricciones y solo debe mostrar aquellas combinaciones en que:
+Debemos aplicar unas restricciones y solo se deben mostrar aquellas combinaciones en que:
 
 - (1 > 5) y (1 < 11)
 - (X > 2) y (X < 6)
