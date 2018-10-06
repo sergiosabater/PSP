@@ -36,7 +36,7 @@ sobre cómo debe ser un coche. Todos los diferentes coches existentes son objeto
 Veamos un ejemplo gráfico:
 
 <p align="center">
-  <img src="https://github.com/sergiosabater/PSP/blob/master/car-oop.png" width="350"/>
+  <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/car-oop.png" width="350"/>
 </p>
 
 Por tanto, podemos concluir que cada cada coche, con sus características particulares (color, marca, modelo), es un _objeto_ de la clase **Coche**, que sirve como una plantilla general para crear cada uno de esos objetos.
