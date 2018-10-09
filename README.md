@@ -2,10 +2,10 @@
 
 ## Contenidos
 
-- [Clase](http://blog.elinsti.com/index.php/programacion-de-servicios-y-procesos/)
-- [Objeto]
+- [Clase](https://github.com/sergiosabater/PSP/blob/master/README.md#clase)
+- [Objeto](https://github.com/sergiosabater/PSP/blob/master/README.md#objeto)
 - Sobrecarga de métodos
-- [Herencia]
+- [Herencia](https://github.com/sergiosabater/PSP/blob/master/README.md#herencia)
 - [Polimorfismo]
 
 ## Clase
