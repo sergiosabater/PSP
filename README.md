@@ -6,7 +6,8 @@
 - [Objeto](https://github.com/sergiosabater/PSP/blob/master/README.md#objeto)
 - Sobrecarga de métodos
 - [Herencia](https://github.com/sergiosabater/PSP/blob/master/README.md#herencia)
-- [Polimorfismo]
+- Polimorfismo
+- Interface
 
 ## Clase
 
