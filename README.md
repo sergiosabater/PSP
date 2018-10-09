@@ -42,6 +42,29 @@ Veamos un ejemplo gráfico:
 </p>
 
 Por tanto, podemos concluir que cada cada coche, con sus características particulares (color, marca, modelo), es un _objeto_ de la clase **Coche**, que sirve como una plantilla general para crear cada uno de esos objetos.
+  
+  
+  
+  
+- - -  
+  
+  
+## Objeto
 
+Un **Objeto** o instancia de una **Clase** puede definirse como una _entidad concreta_ de una **Clase**. Cada **Objeto**, como todas las variables en Java, ha de ser declarado antes de ser utilizado.
 
+Siguiendo el ejemplo anterior en la definición de una **Clase**, podemos declarar un objeto de la siguiente manera:
 
+```java
+Coche coche1 = new Coche();
+```
+Con esta instrucción declaramos una variable llamada **coche1** de la clase **Coche**. El objeto concreto, **coche1**, contendrá una referencia a ese objeto. Es decir, almacenará la dirección de memoria en la que realmente se halla el objeto propiamente dicho. La palabra reservada _`new`_ se utiliza para crear nuevos objetos, instancias de una determinada clase que indicamos a continuación seguida de un par de paréntesis. De esta forma se está invocando a un método especial que tienen todas las clases que sirve para construir el objeto en cuestión con sus valores iniciales. A este método se le conoce como _constructor de la clase_.
+
+Una vez definida una **Clase** podemos crear todos los **Objetos** que necesitemos de ella. Veamos un ejemplo:
+
+```java
+Coche coche2 = new Coche();
+Coche coche3 = new Coche();
+Coche coche4 = new Coche();
+```
+Podemos concluir que un **Objeto** es el resultado de la instanciación de una **Clase**. Una **Clase** es el anteproyecto que ofrece la funcionalidad en ella definida, pero ésta queda implementada solo al crear el **Objeto**. Siguiendo con el ejemplo, tenemos un esquema para construir coches (la clase **Coche**), y un coche concreto (p.ej. **coche1**) es un objeto construido a partir de ese esquema.
