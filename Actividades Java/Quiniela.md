@@ -1,5 +1,7 @@
 # Actividad Java - _Quiniela_
 
+Acceso a la página principal de [ejercicios](http://blog.elinsti.com/index.php/programacion-de-servicios-y-procesos/).
+
 Realizar un programa que muestre todas las combinaciones posibles (hasta 14 caracteres) de 1, X, y 2.
 
 Debemos aplicar unas restricciones y solo se deben mostrar aquellas combinaciones en que:
