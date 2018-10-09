@@ -92,18 +92,24 @@ Veamos un ejemplo gráfico de dicha estructura:
 Como podemos observar en la imagen, la **superclase** en este caso es _Animal_. De ella descienden tres **subclases**, que son _Carnívoro_, _Herbívoro_ y _Omnívoro_. Estas tres subclases o clases hijas son a su vez son clases padre de sus respectivas clases hijas (_Felino_ y _Cánido_ para Carnívoro, _Rumiante_ e _Insecto_ para Herbívoro, etc). Y cada una de esas clases hijas es a la vez clase padre de otras.
 Podemos concluir que la superclase es aquella clase de la cual descienden todas las demás. Una superclase puede tener cualquier número de subclases, pero una subclase solo puede tener una superclase.
 
-Ahora observemos el ejemplo en código Java. Tenemos la siguiente superclase Animal:
+Ahora observemos el ejemplo en código Java. Tenemos la siguiente **superclase** _Animal_:
 
 ```java
 public class Animal
 {
-     // constructor
+
+// atributos
+
+	protected String lugarNacimiento;
+
+// constructores
     
 	public Animal() {
 
 	}
-    
-    // métodos
+		...
+	
+// métodos
 
 	public void crecer() {
 		...	
@@ -112,9 +118,59 @@ public class Animal
 	public void comer() {
 		...
 	}
+	
+// getters y setters
+	
+	public String getLugarNacimiento()
+        {
+                return lugarNacimiento;
+        }
+		...
 }
 
 ```
+
+Y a continuación la **subclase** _Carnívoro_:
+
+```java
+public class Carnivoro extends Animal
+{
+
+// atributos
+
+	private int numeroDientes;
+
+// constructores
+    
+	public Carnivoro() {
+		super():
+	}
+	
+	public Carnivoro(String lugarNacimiento, int numeroDientes) {
+		this.lugarNacimiento = lugarNacimiento;
+		this.numeroDientes = numeroDientes;
+	}
+		
+	
+// métodos
+
+	public void morder() {
+		...	
+	}
+
+
+// getters y setters
+	
+	public String getNumeroDientes()
+        {
+                return numeroDientes;
+        }
+		...
+}
+
+```
+En este caso la **subclase** _Carnivoro_ hereda todos los atributos y métodos de su **clase padre** _Animal_, teniendo a parte los suyos propios. Y lo mismo ocurrirá con las subclases de _Carnivoro_. De esta forma es posible ahorrar código evitando reescribirlo cada vez que creamos una subclase que implemente los mismos atributos y métodos que la clase padre. Además cada una de estas subclases también puede redefinir métodos de su clase padre para realizar funciones específicas.
+
 
 
 
