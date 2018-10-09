@@ -85,6 +85,37 @@ El concepto de herencia conduce a una estructura jerárquica de clases o estruct
 
 Veamos un ejemplo gráfico de dicha estructura:
 
+<p align="center">
+  <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/herencia.png" width="650"/>
+</p>
+
+Como podemos observar en la imagen, la **superclase** en este caso es _Animal_. De ella descienden tres **subclases**, que son _Carnívoro_, _Herbívoro_ y _Omnívoro_. Estas tres subclases o clases hijas son a su vez son clases padre de sus respectivas clases hijas (_Felino_ y _Cánido_ para Carnívoro, _Rumiante_ e _Insecto_ para Herbívoro, etc). Y cada una de esas clases hijas es a la vez clase padre de otras.
+Podemos concluir que la superclase es aquella clase de la cual descienden todas las demás. Una superclase puede tener cualquier número de subclases, pero una subclase solo puede tener una superclase.
+
+Ahora observemos el ejemplo en código Java. Tenemos la siguiente superclase Animal:
+
+```java
+public class Animal
+{
+     // constructor
+    
+	public Animal() {
+
+	}
+    
+    // métodos
+
+	public void crecer() {
+		...	
+	}
+
+	public void comer() {
+		...
+	}
+}
+
+```
+
 
 
 
