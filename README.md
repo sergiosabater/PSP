@@ -70,7 +70,7 @@ Siguiendo el ejemplo anterior en la definición de una **Clase**, podemos declar
 ```java
 Coche coche1 = new Coche();
 ```
-Con esta instrucción declaramos una variable llamada **coche1** de la clase **Coche**. El objeto concreto, **coche1**, contendrá una referencia a ese objeto. Es decir, almacenará la dirección de memoria en la que realmente se halla el objeto propiamente dicho. La palabra reservada _`new`_ se utiliza para crear nuevos objetos, instancias de una determinada clase que indicamos a continuación seguida de un par de paréntesis. De esta forma se está invocando a un método especial que tienen todas las clases que sirve para construir el objeto en cuestión con sus valores iniciales. A este método se le conoce como _constructor de la clase_.
+Con esta instrucción declaramos una variable llamada **coche1** de la clase **Coche**. El objeto concreto, **coche1**, contendrá una referencia a ese objeto. Es decir, almacenará la dirección de memoria en la que realmente se halla el objeto propiamente dicho. La palabra reservada _`new`_ se utiliza para crear nuevos objetos, instancias de una determinada clase que indicamos a continuación seguida de un par de paréntesis. De esta forma, con _`Coche()`_ se está invocando a un método especial que tienen todas las clases que sirve para construir el objeto en cuestión con sus valores iniciales. A este método se le conoce como _constructor de la clase_.
 
 Una vez definida una **Clase** podemos crear todos los **Objetos** que necesitemos de ella. Veamos un ejemplo:
 
