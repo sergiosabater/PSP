@@ -68,3 +68,23 @@ Coche coche3 = new Coche();
 Coche coche4 = new Coche();
 ```
 Podemos concluir que un **Objeto** es el resultado de la instanciación de una **Clase**. Una **Clase** es el anteproyecto que ofrece la funcionalidad en ella definida, pero ésta queda implementada solo al crear el **Objeto**. Siguiendo con el ejemplo, tenemos un esquema para construir coches (la clase **Coche**), y un coche concreto (p.ej. **coche1**) es un objeto construido a partir de ese esquema.
+  
+  
+  
+  
+- - -  
+  
+  
+## Herencia
+
+La **Herencia** es un mecanismo que permite la definición de una **Clase** a partir de otra ya existente. La herencia permite compartir métodos y datos entre **Clases**, **Subclases** y **Objetos**. La herencia es utilizada por las ventajas que ofrece en la reutilización de código en la POO (Programación Orientada a Objetos). Esto significa de que cualquier **Clase** puede derivar otra que usará los datos y métodos de la clase padre, o bien redefinirlos. Además también puede incorporar otros datos o métodos propios.
+
+Existen dos tipos de herencia: **Herencia Simple** y **Herencia Múltiple**. En la Herencia Simple se pueden definir nuevas clases solamente a partir de una clase inicial, mientras que en la Herencia Múltiple se pueden definir nuevas clases a partir de dos o más clases iniciales. En Java de momento solo se permite la **`Herencia Simple`**.
+
+El concepto de herencia conduce a una estructura jerárquica de clases o estructura de árbol. En la POO todas las relaciones entre clases deben ajustarse a dicha estructura. En esta estructura jerárquica, cada clase tiene solo una clase padre. La clase padre de cualquier clase es conocida como _`superclase`_. La clase hija de una superclase es llamada _`subclase`_.
+
+Veamos un ejemplo gráfico de dicha estructura:
+
+
+
+
