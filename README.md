@@ -130,7 +130,7 @@ public class Animal
 
 ```
 
-Y a continuación la **subclase** _Carnívoro_:
+Y a continuación la **subclase** _Carnívoro_ que hereda de _Animal_:
 
 ```java
 public class Carnivoro extends Animal
