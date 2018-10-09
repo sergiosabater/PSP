@@ -79,7 +79,7 @@ Coche coche2 = new Coche();
 Coche coche3 = new Coche();
 Coche coche4 = new Coche();
 ```
-Podemos concluir que un **Objeto** es el resultado de la instanciación de una **Clase**. Una **Clase** es el anteproyecto que ofrece la funcionalidad en ella definida, pero ésta queda implementada solo al crear el **Objeto**. Siguiendo con el ejemplo, tenemos un esquema para construir coches (la clase **Coche**), y un coche concreto (p.ej. **coche1**) es un objeto construido a partir de ese esquema.  
+Podemos concluir que un **Objeto** es el resultado de instanciar una **Clase**. Una **Clase** es el anteproyecto que ofrece la funcionalidad en ella definida, pero ésta queda implementada solo al crear el **Objeto**. Siguiendo con el ejemplo, tenemos un esquema para construir coches (la clase **Coche**), y un coche concreto (p.ej. **coche1**) es un objeto construido a partir de ese esquema.  
 
 [[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/README.md#conceptos-b%C3%A1sicos-de-programaci%C3%B3n-orientada-a-objetos---java)  
   
