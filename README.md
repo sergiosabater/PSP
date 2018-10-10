@@ -183,11 +183,11 @@ public class Carnivoro extends Animal
 // constructores
     
 	public Carnivoro() {
-		super():
+		super(); //invoca al constructor de la clase superior para compartir el mismo tipo de parametrización.
 	}
 	
 	public Carnivoro(String lugarNacimiento, int numeroDientes) {
-		this.lugarNacimiento = lugarNacimiento;
+		super(); //invoca al constructor de la clase superior para compartir el mismo tipo de parametrización.
 		this.numeroDientes = numeroDientes;
 	}
 		
