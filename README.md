@@ -221,11 +221,11 @@ En este caso la **subclase** _Carnivoro_ hereda todos los atributos y métodos d
   
 ## Polimorfismo
 
-**Polimorfismo** es una palabra de origen griego que significa _"muchas formas"_. En la POO este término se utiliza para referirse a la propiedad por la que es posible `enviar mensajes sintácticamente iguales a objetos de tipos diferentes`. Por ejemplo, la **clase padre** tiene atributos y métodos comunes a todas las **clases hijas** o subclases. En la clase padre se implementan métodos que deben tener todas sus clases hijas.
+**Polimorfismo** es una palabra de origen griego que significa _"muchas formas"_. En la POO este término se utiliza para referirse a la propiedad por la que es posible `enviar mensajes sintácticamente iguales a objetos de tipos diferentes`.
 
-La **superclase** es una clase abstracta y las clases abstractas no se pueden instanciar, es decir, no podemos crear objetos de las clases abstractas. Siguiendo con el ejemplo anterior, nunca podríamos hacer un "new Animal()", por ejemplo. También podemos usar la palabra reservada _abstract_ en un método de la superclase. Esto significaría que todas las clases hijas de la clase Animal tienen que implementar ese método obligatoriamente.
+Por ejemplo, la **clase padre** tiene atributos y métodos comunes a todas las **clases hijas** o subclases. En la clase padre se implementan métodos que pueden tener todas sus clases hijas. La **superclase** es una _clase abstracta_ y las clases abstractas no se pueden instanciar, es decir, no podemos crear objetos de las clases abstractas. Siguiendo con el ejemplo anterior, nunca podríamos hacer un "new Animal()". También podemos usar la palabra reservada _abstract_ en un método de la clase padre. Esto significaría que todas las clases hijas tienen que implementar `obligatoriamente` ese método.
 
-Aplicando el concepto de polimorfismo podemos decir que la clase _Animal_ puede tener varias formas: _Carnívoro_, _Herbívoro_ y _Omnívoro_. Una de las ventajas de la herencia y el polimorfismo es que las clases hijas no solo heredan los métodos de la clase padre, sino que los pueden "redefinir", es decir, pueden volver a escribir ese método.
+Aplicando el concepto de **polimorfismo** al ejemplo anterior podemos decir que la clase _Animal_ puede tener varias formas: _Carnívoro_, _Herbívoro_ y _Omnívoro_. Una de las ventajas de la herencia y el polimorfismo es que las clases hijas no solo heredan los métodos de la clase padre, sino que los pueden "redefinir" o sobreescribir.
 
 
 
