@@ -135,7 +135,7 @@ Podemos concluir que la superclase es aquella clase de la cual descienden todas 
 Ahora observemos el ejemplo en código Java. Tenemos la siguiente **superclase** _Animal_:
 
 ```java
-public class Animal
+public abstract class Animal //palabra reservada abstract para referirnos a la superclase
 {
 
 // atributos
@@ -173,7 +173,7 @@ public class Animal
 Y a continuación la **subclase** _Carnívoro_ que hereda de _Animal_:
 
 ```java
-public class Carnivoro extends Animal
+public class Carnivoro extends Animal //Subclase de Animal
 {
 
 // atributos
@@ -212,6 +212,35 @@ public class Carnivoro extends Animal
 En este caso la **subclase** _Carnivoro_ hereda todos los atributos y métodos de su **clase padre** _Animal_, teniendo a parte los suyos propios. Y lo mismo ocurrirá con las subclases de _Carnivoro_. De esta forma es posible ahorrar código evitando reescribirlo cada vez que creamos una subclase que implemente los mismos métodos y posea los mismos atributos que la clase padre. Además cada una de estas subclases también puede redefinir métodos de su clase padre para realizar funciones específicas.  
 
 [[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/README.md#conceptos-b%C3%A1sicos-de-programaci%C3%B3n-orientada-a-objetos---java)
+  
+  
+  
+  
+- - -  
+  
+  
+## Polimorfismo
+
+**Polimorfismo** es una palabra de origen griego que significa _"muchas formas"_. En la POO este término se utiliza para referirse a la propiedad por la que es posible `enviar mensajes sintácticamente iguales a objetos de tipos diferentes`. Por ejemplo, la **clase padre** tiene atributos y métodos comunes a todas las **clases hijas** o subclases. En la clase padre se implementan métodos que deben tener todas sus clases hijas.
+
+La **superclase** es una clase abstracta y las clases abstractas no se pueden instanciar, es decir, no podemos crear objetos de las clases abstractas. Siguiendo con el ejemplo anterior, nunca podríamos hacer un "new Animal()", por ejemplo. También podemos usar la palabra reservada _abstract_ en un método de la superclase. Esto significaría que todas las clases hijas de la clase Animal tienen que implementar ese método obligatoriamente.
+
+Aplicando el concepto de polimorfismo podemos decir que la clase _Animal_ puede tener varias formas: _Carnívoro_, _Herbívoro_ y _Omnívoro_. Una de las ventajas de la herencia y el polimorfismo es que las clases hijas no solo heredan los métodos de la clase padre, sino que los pueden "redefinir", es decir, pueden volver a escribir ese método.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
