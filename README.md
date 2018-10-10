@@ -4,7 +4,7 @@
 
 - [Clase](https://github.com/sergiosabater/PSP/blob/master/README.md#clase)
 - [Objeto](https://github.com/sergiosabater/PSP/blob/master/README.md#objeto)
-- Sobrecarga de métodos
+- [Sobrecarga de métodos](https://github.com/sergiosabater/PSP/blob/master/README.md#sobrecarga-de-m%C3%A9todos)
 - [Herencia](https://github.com/sergiosabater/PSP/blob/master/README.md#herencia)
 - Polimorfismo
 - Interface
@@ -209,7 +209,7 @@ public class Carnivoro extends Animal
 }
 
 ```
-En este caso la **subclase** _Carnivoro_ hereda todos los atributos y métodos de su **clase padre** _Animal_, teniendo a parte los suyos propios. Y lo mismo ocurrirá con las subclases de _Carnivoro_. De esta forma es posible ahorrar código evitando reescribirlo cada vez que creamos una subclase que implemente los mismos atributos y métodos que la clase padre. Además cada una de estas subclases también puede redefinir métodos de su clase padre para realizar funciones específicas.  
+En este caso la **subclase** _Carnivoro_ hereda todos los atributos y métodos de su **clase padre** _Animal_, teniendo a parte los suyos propios. Y lo mismo ocurrirá con las subclases de _Carnivoro_. De esta forma es posible ahorrar código evitando reescribirlo cada vez que creamos una subclase que implemente los mismos métodos y posea los mismos atributos que la clase padre. Además cada una de estas subclases también puede redefinir métodos de su clase padre para realizar funciones específicas.  
 
 [[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/README.md#conceptos-b%C3%A1sicos-de-programaci%C3%B3n-orientada-a-objetos---java)
 
