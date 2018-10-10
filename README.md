@@ -89,6 +89,32 @@ Podemos concluir que un **Objeto** es el resultado de instanciar una **Clase**. 
 - - -  
   
   
+## Sobrecarga de métodos
+
+La **Sobrecarga de métodos** (_Overloading_) se utiliza para reutilizar el nombre de un método para usarlo con diferentes argumentos y, opcionalmente, con un tipo diferente de retorno.
+
+Veamos un método cualquiera, por ejemplo:
+
+```java
+public void modificarObjeto (int tamano, String nombre) {}
+```
+Los siguientes métodos son sobrecargas del método modificarObjeto():
+
+```java
+public int modificarObjeto (int tamano){}
+public double modificarObjeto (double tamano){}
+public void modificarObjeto (String nombre){}
+```
+Lo que define qué método se va a llamar son los argumentos que se envían durante la llamada. Si se invoca un método con un String como argumento, se ejecutará el método que tome un String como argumento. Si se llama un método que tenga un int como argumento, se ejecutará el método que tome el int como argumento, y así sucesivamente. Si se invoca a un método con un argumento que no es definido en ninguna de las versiones sobrecargadas el compilador lanzará un mensaje de error.
+
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/README.md#conceptos-b%C3%A1sicos-de-programaci%C3%B3n-orientada-a-objetos---java)  
+  
+  
+  
+  
+- - -  
+  
+  
 ## Herencia
 
 La **Herencia** es un mecanismo que permite la definición de una **Clase** a partir de otra ya existente. La herencia permite compartir métodos y datos entre **Clases**, **Subclases** y **Objetos**. La herencia es utilizada por las ventajas que ofrece en la reutilización de código en la POO (Programación Orientada a Objetos). Esto significa de que cualquier **Clase** puede derivar otra que usará los datos y métodos de la clase padre, o bien redefinirlos. Además también puede incorporar otros datos o métodos propios.
