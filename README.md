@@ -227,22 +227,123 @@ Por ejemplo, la **clase padre** tiene atributos y métodos comunes a todas las *
 
 Aplicando el concepto de **polimorfismo** al ejemplo anterior podemos decir que la clase _Animal_ puede tener varias formas: _Carnívoro_, _Herbívoro_ y _Omnívoro_. Una de las ventajas de la herencia y el polimorfismo es que las clases hijas no solo heredan los métodos de la clase padre, sino que los pueden "redefinir" o sobreescribir.
 
+Veamos ejemplos en código:
+
+Clase padre (superclase) _Animal_ (fragmento de código):
+
+```java
+public abstract class Animal
+{
+
+	protected String lugarNacimiento;
+
+	public Animal() {
+
+	}
+		...
+		
+// métodos
+
+	// METODO ABSTRACTO -> no se implementa en la clase abstracta pero si en la clases hijas
+	public abstract void crecer() {}
+
+	public void comer() {
+		System.out.println("Comiendo");
+	}
+
+		...
+}
+
+```
+
+Clase hija _Carnivoro_ (fragmento de código):
+
+```java
+public class Carnivoro extends Animal
+{
+
+		...	
+
+// métodos
+	
+	// Método obligatorio implementado en la clase hija.
+	@Override
+	public void crecer() {
+		System.out.println("Soy carnívoro y crezco rápido"); 	
+	}
+	
+	// Método redefinido en la clase hija.
+	@Override
+	public void comer() {
+		System.out.println("Comiendo carne"); 	
+	}
+	
+	// Método propio de la clase hija
+	public void morder() {
+		...	
+	}
+		...
+}
+
+```
+
+Clase hija _Herbívoro_ (fragmento de código):
+
+```java
+public class Herbivoro extends Animal
+{
+		...	
+
+// métodos
+	
+	// Método obligatorio implementado en la clase hija.
+	@Override
+	public void crecer() {
+		System.out.println("Soy herbivoro y crezco lento"); 	
+	}
+	
+	// Método propio de la clase hija
+	public void rumiar() {
+		...	
+	}
+		...
+}
+
+```
 
 
+En el código podemos observar que todas las clases hijas tienen implementado el método "crecer()" porque si la clase padre lo tiene como método abstracto es obligatorio que todas las clases hijas tengan este método. Por encima de los métodos "crecer()" y "comer()" tenemos la etiqueta **@Override**. Esta etiqueta sirve para indicar que en el código estamos re-escribiendo o "especializando" un método que se encuentra en la clase padre y que queremos redefinir en la clase hija. Por tanto, cuando llamemos al método de una clase hija y éste haya sido redefinido en ella, se ejecutará dicho método redefinido. De lo contrario, si la clase hija no lo ha redefinido, se ejecutará el método de la clase padre.
 
+Por último veamos cómo quedaría la ejecución del código:
 
+1. Escribimos el código:
 
+```java
+Animal tigre = new Carnivoro();
+Animal jirafa = new Herbivoro();
 
+System.out.println("Objeto Carnivoro: "+tigre.crecer());
+tigre.comer();
+System.out.println("Objeto Herbivoro: "+jirafa.crecer());
+jirafa.comer();
 
+```
 
+2. Ejecutamos el código. Este sería el resultado:
 
+```
+Objeto Carnivoro: Soy carnívoro y crezco rápido
+Comiendo carne
+Objeto Herbivoro: Soy herbívoro y crezco lento
+Comiendo
+```
 
-
-
-
-
-
-
-
-
-
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/README.md#conceptos-b%C3%A1sicos-de-programaci%C3%B3n-orientada-a-objetos---java)
+  
+  
+  
+  
+- - -  
+  
+  
+## Interface
