@@ -347,3 +347,51 @@ Comiendo
   
   
 ## Interface
+
+Un **Interface** (o Interfaz) es una colección de métodos abstractos y propiedades constantes. En las interfaces se especifican los métodos pero no su comportamiento. Serán las clases que implementen estas interfaces las que describan el comportamiento de los métodos.
+
+Las ventajas que proporciona el uso de las interfaces en Java son:
+
+- Organización
+- Permiten declarar constantes que estarán disponibles para todas las clases que implementen dicha interfaz.
+- Obligar a que ciertas clases utilicen los mismos métodos (nombres y parámetros).
+- Establecer relaciones entre clases que no estén relacionadas.
+
+Para trabajar con interfaces, Java proporciona dos palabras reservadas: `interface` e `implements`.
+
+Ejemplo en código:
+
+Declarar una interfaz:
+
+```java
+public interface Interfaz {
+	public int sumar(int num1, int num2){}
+	
+	public void saludar(){}
+	.....
+```
+
+Implementar una interfaz en una clase:
+
+```java
+public class Clase implements Interfaz {
+	public sumar(int num1, int num2){
+		//Implementación del método
+		int result = num1 + num2;
+		return result;
+	}
+	
+	public saludar(){
+		//Implementación del método
+		System.out.println("Hola");
+	}
+	.....
+```
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/README.md#conceptos-b%C3%A1sicos-de-programaci%C3%B3n-orientada-a-objetos---java)
+  
+  
+  
+  
+- - -  
+  
+  
