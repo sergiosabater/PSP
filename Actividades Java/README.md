@@ -1,6 +1,6 @@
 # Actividades Java
 
-## En esta carpeta guardamos las actividades Java
+## Esta carpeta contiene las actividades Java
 
 ### Índice de contenido:
 
