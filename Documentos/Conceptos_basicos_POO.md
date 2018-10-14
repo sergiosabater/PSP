@@ -53,7 +53,7 @@ Veamos un ejemplo gráfico:
 
 Por tanto, podemos concluir que cada cada coche, con sus características particulares (color, marca, modelo), es un _objeto_ de la clase **Coche**, que sirve como una plantilla general para crear cada uno de esos objetos.  
 
-[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/README.md#conceptos-b%C3%A1sicos-de-programaci%C3%B3n-orientada-a-objetos---java)  
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/Documentos/Conceptos_basicos_POO.md#contenidos)  
   
   
   
@@ -81,7 +81,7 @@ Coche coche4 = new Coche();
 ```
 Podemos concluir que un **Objeto** es el resultado de instanciar una **Clase**. Una **Clase** es el anteproyecto que ofrece la funcionalidad en ella definida, pero ésta queda implementada solo al crear el **Objeto**. Siguiendo con el ejemplo, tenemos un esquema para construir coches (la clase **Coche**), y un coche concreto (p.ej. **coche1**) es un objeto construido a partir de ese esquema.  
 
-[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/README.md#conceptos-b%C3%A1sicos-de-programaci%C3%B3n-orientada-a-objetos---java)  
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/Documentos/Conceptos_basicos_POO.md#contenidos)  
   
   
   
@@ -107,7 +107,7 @@ public void modificarObjeto (String nombre){}
 ```
 Lo que define qué método se va a llamar son los argumentos que se envían durante la llamada. Si se invoca un método con un String como argumento, se ejecutará el método que tome un String como argumento. Si se llama un método que tenga un int como argumento, se ejecutará el método que tome el int como argumento, y así sucesivamente. Si se invoca a un método con un argumento que no es definido en ninguna de las versiones sobrecargadas el compilador lanzará un mensaje de error.
 
-[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/README.md#conceptos-b%C3%A1sicos-de-programaci%C3%B3n-orientada-a-objetos---java)  
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/Documentos/Conceptos_basicos_POO.md#contenidos)  
   
   
   
@@ -211,7 +211,7 @@ public class Carnivoro extends Animal //Subclase de Animal
 ```
 En este caso la **subclase** _Carnivoro_ hereda todos los atributos y métodos de su **clase padre** _Animal_, teniendo a parte los suyos propios. Y lo mismo ocurrirá con las subclases de _Carnivoro_. De esta forma es posible ahorrar código evitando reescribirlo cada vez que creamos una subclase que implemente los mismos métodos y posea los mismos atributos que la clase padre. Además cada una de estas subclases también puede redefinir métodos de su clase padre para realizar funciones específicas.  
 
-[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/README.md#conceptos-b%C3%A1sicos-de-programaci%C3%B3n-orientada-a-objetos---java)
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/Documentos/Conceptos_basicos_POO.md#contenidos)
   
   
   
@@ -338,7 +338,7 @@ Objeto Herbivoro: Soy herbívoro y crezco lento
 Comiendo
 ```
 
-[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/README.md#conceptos-b%C3%A1sicos-de-programaci%C3%B3n-orientada-a-objetos---java)
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/Documentos/Conceptos_basicos_POO.md#contenidos)
   
   
   
@@ -387,7 +387,7 @@ public class Clase implements Interfaz {
 	}
 	.....
 ```
-[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/README.md#conceptos-b%C3%A1sicos-de-programaci%C3%B3n-orientada-a-objetos---java)
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/Documentos/Conceptos_basicos_POO.md#contenidos)
   
   
   
