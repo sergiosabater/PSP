@@ -7,6 +7,6 @@
 
 ## Actividades en Java
 
-- [Quiniela con restricciones](https://github.com/sergiosabater/PSP/blob/master/README.md#objeto)
+- [Quiniela con restricciones](https://github.com/sergiosabater/PSP/blob/master/Actividades%20Java/Quiniela/Quiniela.java)
 - [Validar NIF](https://github.com/sergiosabater/PSP/blob/master/Actividades%20Java/ValidarNIF/ValidarNIF.java)
 - [Herencia](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/EjercicioConHerencia)
