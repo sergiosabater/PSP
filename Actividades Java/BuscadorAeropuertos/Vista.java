@@ -20,6 +20,9 @@ import java.awt.Desktop;
 
 import javax.swing.JButton;
 import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URISyntaxException;
@@ -44,7 +47,7 @@ public class Vista extends JFrame {
 		
 		setTitle("Buscador de Aeropuertos"); //Establecemos el título de la ventana
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 645, 550);
+		setBounds(100, 100, 645, 500);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -155,38 +158,38 @@ public class Vista extends JFrame {
 		btnBuscar.setBounds(293, 117, 89, 23);
 		panel.add(btnBuscar);
 		
-		//Botón para abrir el navegador y buscar las coordenadas en GoogleMaps
-		JButton btnIrANavegador = new JButton("Ir a Navegador");
-		btnIrANavegador.setBounds(262, 439, 129, 32);
-		contentPane.add(btnIrANavegador);
-		btnIrANavegador.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				try {
-					//El lugar que ocupa el elemento seleccionado en la lista es equivalente al lugar que ocupa en el array de aeropuertos encontrados
-					int indice = list_aeropuertos.getSelectedIndex();
-					String lat = listaAeropuertosEncontrados.get(indice).getLatitud();
+		
+		/*Definimos un MouseListener para que al hacer click sobre el nombre de un aeropuerto en la lista
+		se abra directamente el navegador, mostrando la ubicación del aeropuerto en GoogleMaps en vista satélite*/
+		
+		MouseListener mouseListener = new MouseAdapter() 
+		{
+		    public void mouseClicked(MouseEvent e) 
+		    {
+		        if (e.getClickCount() == 1) // Se ejecuta cuando hace click
+		        {
+		            int indice = list_aeropuertos.locationToIndex(e.getPoint());
+		            String lat = listaAeropuertosEncontrados.get(indice).getLatitud();
 					String lng = listaAeropuertosEncontrados.get(indice).getLongitud();
-					
 					URL url=null; //Declaramos la variable url
-					try {
+						try {
 						
 						//Inicializamos la variable url con la dirección url incluyendo la latitud y longitud obtenidas del aeropuerto seleccionado
-					    url = new URL("http://maps.google.com/maps?z=12&t=m&q=loc:"+lat+"+"+lng);
-					    try {
-					        Desktop.getDesktop().browse(url.toURI());
-					    } catch (IOException e2) {
+					    url = new URL("http://maps.google.com/maps?z=12&t=k&q=loc:"+lat+"+"+lng);
+					    	try {
+					    		Desktop.getDesktop().browse(url.toURI());
+					    	} catch (IOException e2) {
 					    	
-					    } catch (URISyntaxException e2) {
+					    	} catch (URISyntaxException e2) {
 					    	
-					    }
-					} catch (MalformedURLException e3) {
+					    	}
+						} catch (MalformedURLException e3) {
 						
-					}
-				}catch (Exception e1) {
-					JOptionPane.showMessageDialog(null, "No hay aeropuertos seleccionados", "ATENCIÓN", JOptionPane.WARNING_MESSAGE);
-				}
-				
-			}
-		});
+						}
+		         }
+		    }
+		};
+		list_aeropuertos.addMouseListener(mouseListener);
+		
 	}
 }
