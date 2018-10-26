@@ -26,7 +26,7 @@ caja de texto.
 del aeropuerto en un mapa de GoogleMaps u OpenStreetMap.  
   
   
-Interfaz del programa:
+## Interfaz del programa
 
 <p align="center">
   <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/Aeropuertos_Interfaz.JPG"/>
