@@ -10,6 +10,12 @@ Las aplicaciones pueden tener distintas licencias de distribución como ser free
 texto y las hojas de cálculo son ejemplos de aplicaciones informáticas, mientras que los sistemas operativos o los programas de utilidades
 (que cumplen tareas de mantenimiento) no forman parte de estos programas.
 
+<p align="center">
+  <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/application-software-definition.jpg" width="400"/>
+</p>
+
+<p align="center">Clasificación de software</p>
+
 Actualmente, con el uso de dispositivo móviles, se ha extendido el término app, que es un acortamiento de la palabra inglesa application,
 y extendida por el éxito de la llamada App Store de Apple.
 
