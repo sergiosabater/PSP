@@ -34,6 +34,13 @@ conseguir satisfacer estas necesidades. `Los programas deben ser independientes 
 transportados sin grandes problemas de adaptación a otras computadoras y otros entornos operativos.
 
 Dentro de los programas de aplicación, puede ser útil una distinción entre **aplicaciones verticales**, de finalidad específica para un tipo muy delimitado de usuarios (médicos, abogados, arquitectos…), y **aplicaciones horizontales**, de utilidad para una amplísima gama de usuarios de cualquier tipo (suites ofimáticas, reproductores de archivos multimedia, editores de imagen...).
+
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/Documentos/Procesos.md#contenidos)  
+  
+  
+  
+  
+- - -  
   
   
 ## Servicio
