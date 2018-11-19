@@ -36,6 +36,12 @@ Sus características son:
 
 El servicio está constantemente disponible y permanece inactivo hasta que es invocado para cumplir una tarea. Algunas actividades que pueden activar un servicio pueden ser la invocación de un servicio Web en un canal de comunicación, cuando se recibe un archivo a un directorio determinado, cuando se recibe un correo electrónico, entre otros.
 
-Los sistemas a menudo inician servicios en el tiempo de arranque, los cuales responderán a requerimientos de red, actividad de hardware u otros programas para realizar algunas tareas. Servicios como _cron_ pueden también realizar tareas definidas en determinados horas programadas.
+Aplicación que gestiona los servicios en Windows (**services.msc**):
+
+<p align="center">
+  <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/servicios_windows.jpg" width="600"/>
+</p>
+
+Los sistemas a menudo inician servicios en el tiempo de arranque, los cuales responderán a requerimientos de red, actividad de hardware u otros programas para realizar algunas tareas. Existen servicios que realizan tareas definidas en determinados horas programadas.
 
 En sistemas Microsoft Windows, los servicios de Windows se ejecutan como procesos que usualmente no interaccionan con el monitor, teclado ni ratón, y pueden ser lanzados desde el arranque del sistema operativo.
