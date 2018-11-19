@@ -24,7 +24,8 @@ conseguir satisfacer estas necesidades. `Los programas deben ser independientes 
 transportados sin grandes problemas de adaptación a otras computadoras y otros entornos operativos.
 
 Dentro de los programas de aplicación, puede ser útil una distinción entre **aplicaciones verticales**, de finalidad específica para un tipo muy delimitado de usuarios (médicos, abogados, arquitectos…), y **aplicaciones horizontales**, de utilidad para una amplísima gama de usuarios de cualquier tipo (suites ofimáticas, reproductores de archivos multimedia, editores de imagen...).
-
+  
+  
 ## Servicio
 
 Un **servicio** (nomenclatura usada en Windows) o **daemon** (nomenclatura usada en sistemas UNIX) es un tipo especial de proceso informático no interactivo, es decir, que se ejecuta en segundo plano en vez de ser controlado por el usuario directamente.
@@ -44,4 +45,45 @@ Aplicación que gestiona los servicios en Windows (**services.msc**):
 
 Los sistemas a menudo inician servicios en el tiempo de arranque, los cuales responderán a requerimientos de red, actividad de hardware u otros programas para realizar algunas tareas. Existen servicios que realizan tareas definidas en determinados horas programadas.
 
-En sistemas Microsoft Windows, los servicios de Windows se ejecutan como procesos que usualmente no interaccionan con el monitor, teclado ni ratón, y pueden ser lanzados desde el arranque del sistema operativo.
+En sistemas Microsoft Windows, los servicios de Windows se ejecutan como procesos que usualmente no interaccionan con el monitor, teclado ni ratón, y pueden ser lanzados desde el arranque del sistema operativo.  
+  
+  
+## Proceso
+
+En el ámbito de la informática, el concepto de **proceso** se refiere a la ejecución de diversas instrucciones por parte del microprocesador, de acuerdo a lo que indica un programa. Un proceso puede entenderse informalmente como _un programa en ejecución_.
+
+Para entender mejor lo que es un proceso, [A. S. Tanenbaum](https://es.wikipedia.org/wiki/Andrew_S._Tanenbaum) propone la analogía de un cocinero. El cocinero tiene la receta para un pastel y unos ingredientes. Se puede decir que la receta representa el programa (el algoritmo), el cocinero es el procesador y los ingredientes son las entradas del programa. El _proceso_ es la actividad que consiste en que el cocinero vaya leyendo la receta, obteniendo los ingredientes y horneando el pastel.
+
+Cada proceso tiene su contador de programa, registros y variables, aislados de otros procesos. Incluso si el mismo programa es ejecutado 2 veces, el sistema operativo usará la misma región de memoria de código, debido a que dicho código no cambiará, a menos que se ejecute una versión distinta del programa.
+
+Los procesos son creados y eliminados por el sistema operativo, así como también éste se debe hacer cargo de la comunicación entre procesos, pero lo hace a petición de otros procesos (interrupción o tiempo de reloj). El mecanismo por el cual un proceso crea otro proceso se denomina _bifurcación_ (_**fork**_).
+
+En los sistemas operativos multihilo es posible crear tanto _hilos_ como _procesos_. La diferencia está en que un proceso solamente puede crear hilos para sí mismo y en que dichos hilos comparten toda la memoria reservada para el proceso.
+
+Los procesos pueden ser **cooperativos** o **independientes**. Dos o más procesos pueden cooperar mediante señales de forma que uno obliga a detenerse a los otros hasta que reciban una señal para continuar.
+
+Existen diversos caminos para la creación de un proceso informático, como el propio inicio del sistema, el pedido de un usuario o la llamada realizada por otro proceso. En cuanto a la finalización de un proceso, puede concretarse de manera normal, a partir de un error o por petición de otro proceso.
+
+Un proceso informático, por otra parte, puede atravesar diferentes estados. Puede estar:
+
+- **Nuevo** (Cuando es creado por primera vez)
+- **En ejecución** (Cuando está utilizando el microprocesador)
+- **Bloqueado** (Su ejecución requiere que se realice otro evento)
+- **Listo o preparado** (Cuando libera el microprocesador para que pueda dedicarse a otro proceso)
+
+Estados por los que atraviesa un proceso en su ciclo de vida:
+
+<p align="center">
+  <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/estados%20de%20procesos.png" width="600"/>
+</p>
+
+Por último, la **terminación** de un proceso es la última fase de su vida. La terminación puede darse por diferentes razones, las cuales se manifiestan a través del estado que atraviesa el proceso al momento de ser eliminado. Puede ser por salida normal, salida por error, por error fatal o eliminado por otro proceso.
+
+
+
+
+
+
+
+
+
