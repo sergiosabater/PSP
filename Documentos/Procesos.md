@@ -63,8 +63,14 @@ Aplicación que gestiona los servicios en Windows (**services.msc**):
 Los sistemas a menudo inician servicios en el tiempo de arranque, los cuales responderán a requerimientos de red, actividad de hardware u otros programas para realizar algunas tareas. Existen servicios que realizan tareas definidas en determinados horas programadas.
 
 En sistemas Microsoft Windows, los servicios de Windows se ejecutan como procesos que usualmente no interaccionan con el monitor, teclado ni ratón, y pueden ser lanzados desde el arranque del sistema operativo.  
+
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/Documentos/Procesos.md#contenidos)  
   
   
+  
+  
+- - -  
+
 ## Proceso
 
 En el ámbito de la informática, el concepto de **proceso** se refiere a la ejecución de diversas instrucciones por parte del microprocesador, de acuerdo a lo que indica un programa. Un proceso puede entenderse informalmente como _un programa en ejecución_.
@@ -95,6 +101,16 @@ Estados por los que atraviesa un proceso en su ciclo de vida:
 </p>
 
 Por último, la **terminación** de un proceso es la última fase de su vida. La terminación puede darse por diferentes razones, las cuales se manifiestan a través del estado que atraviesa el proceso al momento de ser eliminado. Puede ser por salida normal, salida por error, por error fatal o eliminado por otro proceso.
+
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/Documentos/Procesos.md#contenidos)  
+  
+  
+  
+  
+- - -  
+
+## Hilo
+Un **hilo** (del inglés _thread_), es una secuencia muy pequeña de tareas encadenadas que puede ser ejecutada por un sistema operativo. 
 
 
 
