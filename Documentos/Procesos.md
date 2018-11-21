@@ -126,13 +126,50 @@ Los hilos nos permiten `aprovechar la existencia de más de un procesador en el 
 
 Como comentamos anteriormente, los hilos de un mismo proceso comparten el mismo espacio de memoria, por tanto, dos hilos del mismo proceso pueden compartir estructuras de datos y variables.
 
-Veamos un ejemplo de multiprocesamiento:
+Veamos un ejemplo de multiprogramación:
 
 <p align="center">
   <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/Uso_del_procesador_hilos.svg.png" width="600"/>
 </p>
 
-Con multiprocesamiento podemos ejecutar diferentes procesos a la vez. Si tenemos uno solo proceso podemos desdoblarlo en hilos.
+Con multiprogramación podemos ejecutar diferentes procesos a la vez en una CPU. Si tenemos uno solo proceso podemos desdoblarlo en hilos.
+  
+  
+
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/Documentos/Procesos.md#contenidos)  
+  
+  
+  
+  
+- - -  
+  
+  
+## Programación concurrente
+
+La **programación concurrente** es la ejecución simultánea de múltiples tareas interactivamente. Estas tareas pueden ser un conjunto de procesos o hilos de ejecución creados por un único programa. Las tareas se pueden ejecutar en una sola CPU (multiprogramación), en varios procesadores, o en una red de computadores distribuidos.
+
+La **concurrencia** es una propiedad de los sistemas en la cual los procesos de un cómputo se hacen simultáneamente, y pueden interactuar entre ellos. Los cálculos (operaciones) pueden ser ejecutados en múltiples procesadores, o ejecutados en procesadores separados físicamente o virtualmente en distintos hilos de ejecución.
+
+El diseño de sistemas concurrentes a menudo implican la búsqueda de técnicas confiables para coordinar su ejecución, el intercambio de información, asignación de memoria, y una ejecución programada para minimizar la respuesta de tiempo y maximizar el rendimiento o cantidad de datos que se pueden transmitir por un canal u otro dispositivo de entrada.
+
+Conviene distinguir entre programación concurrente y programación paralela. Básicamente podríamos decir que:
+
+<p align="center">
+  <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/concurrencia_vs_paralelismo.PNG" width="600"/>
+</p>
+
+  
+  
+
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/Documentos/Procesos.md#contenidos)  
+  
+  
+  
+  
+- - -  
+  
+
+
 
 
 
