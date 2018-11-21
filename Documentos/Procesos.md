@@ -132,7 +132,7 @@ Veamos un ejemplo de multiprogramación:
   <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/Uso_del_procesador_hilos.svg.png" width="600"/>
 </p>
 
-Con multiprogramación podemos ejecutar diferentes procesos a la vez en una CPU. Si tenemos uno solo proceso podemos desdoblarlo en hilos.
+Con multiprogramación podemos ejecutar diferentes procesos a la vez en una CPU. Incluso podemos desdoblar un determinado proceso en diferentes hilos.
   
   
 
