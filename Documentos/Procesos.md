@@ -173,11 +173,13 @@ Conviene distinguir entre programación concurrente y programación paralela. B�
 
 Existen dos tipos de definiciones de **programación paralela**:
 
-- Según la definición tradicional: Es el uso de varios computadores trabajando juntos para resolver una tarea común. En este caso, cada computador trabaja en una `porción del problema`, y los procesos pueden intercambiar datos y comunicarse a través de la memoria y una red de comunicación.
+- Según la **definición tradicional**: Es el uso de varios computadores trabajando juntos para resolver una tarea común. En este caso, cada computador trabaja en una `porción del problema`, y los procesos pueden intercambiar datos y comunicarse a través de la memoria y una red de comunicación.
 
-- Según la definición actual: Es el uso de varios procesadores trabajando juntos para resolver una tarea común. Estos procesadores `pueden estar dentro del mismo ordenador` y tener `distintas naturalezas`(**heterogénesis**). O pueden estar dentro del mismo chip (multicore, GPUs, etc).
+- Según la **definición actual**: Es el uso de varios procesadores trabajando juntos para resolver una tarea común. Estos procesadores `pueden estar dentro del mismo ordenador` y tener `distintas naturalezas`(**heterogénesis**). O pueden estar dentro del mismo chip (multicore, GPUs, etc).
 
-[![Everything Is AWESOME](https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/videoProgParalela.PNG)](https://www.youtube.com/watch?v=QgvzDdFpARM)
+Vídeo explicativo sobre la programación paralela:
+
+[![PROGRAMACIÓN PARALELA](https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/videoProgParalela.PNG)](https://www.youtube.com/watch?v=QgvzDdFpARM)
 
 
 
