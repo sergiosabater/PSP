@@ -110,7 +110,30 @@ Por último, la **terminación** de un proceso es la última fase de su vida. La
 - - -  
 
 ## Hilo
-Un **hilo** (del inglés _thread_), es una secuencia muy pequeña de tareas encadenadas que puede ser ejecutada por un sistema operativo. 
+Un **hilo** (del inglés _thread_), es una secuencia muy pequeña de tareas encadenadas que puede ser ejecutada por un sistema operativo. Básicamente un hilo es una tarea que puede ser ejecutada al mismo tiempo que otra tarea. Los hilos de ejecución que comparten los mismos recursos, junto con estos mismo recursos, son en conjunto conocidos como un **proceso** (definido anteriormente).
+
+Los hilos de ejecución de un mismo proceso comparten los recursos y cualquiera de estos hilos puede modificar estos recursos. Cuando un hilo modifica un dato en la memoria, los otros hilos acceden a ese dato modificado inmediatamente.
+
+Un hilo posee su _contador de programa_, _la pila de ejecución_ y el _estado de la CPU_ (incluyendo el valor de los registros).
+
+Mientras al menos uno de sus hilos de ejecución siga activo, un proceso continúa en ejecución. Cuando el proceso finaliza, todos sus hilos de ejecución también han terminado.
+
+Podemos decir que un proceso es un hilo de ejecución, conocido como **Monohilo**. Los hilos son generados a partir de la creación de un proceso. Las ventajas de los hilos se dan cuando hablamos de **Multihilos**, que es cuando un proceso tiene múltiples hilos de ejecución los cuales realizan actividades distintas, que pueden o no ser cooperativas entre sí. Los beneficios de los hilos se derivan de las implicaciones de rendimiento.
+
+Los **estados de un hilo** son iguales a los de un proceso, por tanto, un hilo puede estar en estado _preparado_, _bloqueado_ o _activo_ en un cierto instante de tiempo. La conmutación entre hilos de un proceso es menos costosa que la conmutación de procesos, por tanto, el planificador tiende a conmutar entre hilos de un proceso siempre que el proceso en su conjunto no haya agotado el tiempo máximo de asignación del procesador.
+
+Los hilos nos permiten `aprovechar la existencia de más de un procesador en el sistema`, puesto que podemos asignar un hilo a cada uno de los procesadores que haya disponibles. Si hay más de un procesador, dos hilos de un mismo proceso pueden estar en estado activo simultáneamente. Por tanto, la programación con hilos nos permite sacar partido de las arquitecturas de multiprocesador que predominan en la actualidad.
+
+Como comentamos anteriormente, los hilos de un mismo proceso comparten el mismo espacio de memoria, por tanto, dos hilos del mismo proceso pueden compartir estructuras de datos y variables.
+
+Veamos un ejemplo de multiprocesamiento:
+
+<p align="center">
+  <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/Uso_del_procesador_hilos.svg.png" width="600"/>
+</p>
+
+Con multiprocesamiento podemos ejecutar diferentes procesos a la vez. Si tenemos uno solo proceso podemos desdoblarlo en hilos.
+
 
 
 
