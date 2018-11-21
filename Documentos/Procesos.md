@@ -7,7 +7,7 @@
 - [Proceso](https://github.com/sergiosabater/PSP/blob/master/Documentos/Procesos.md#proceso)
 - [Hilo](https://github.com/sergiosabater/PSP/blob/master/Documentos/Procesos.md#hilo)
 - [Programación concurrente](https://github.com/sergiosabater/PSP/blob/master/Documentos/Procesos.md#programaci%C3%B3n-concurrente)
-- [Programación paralela]
+- [Programación paralela](https://github.com/sergiosabater/PSP/blob/master/Documentos/Procesos.md#programaci%C3%B3n-paralela)
 - [Programación distribuida]
 
 ## Aplicación
@@ -180,13 +180,45 @@ Existen dos tipos de definiciones de **programación paralela**:
 Vídeo explicativo sobre la programación paralela:
 
 [![PROGRAMACIÓN PARALELA](https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/videoProgParalela.PNG)](https://www.youtube.com/watch?v=QgvzDdFpARM)
+  
+  
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/Documentos/Procesos.md#contenidos)  
+  
+  
+  
+  
+- - -  
+  
+  
+## Programación distribuida
 
+En la **programación distribuida** los distintos componentes de una aplicación se ejecutan en entornos separados, normalmente en diferentes plataformas conectadas a través de una red.
 
+La **distribución** se refiere a la construcción de software `por partes`, a las cuales le son asignadas una serie de _responsabilidades_ dentro de un sistema. Esta distribución se refiere a las partes o componentes que se encuentran en máquinas diferentes. Sin embargo, para realizar esta "separación física" primero se debe tener claro la "separación lógica" de las partes de una aplicación, esto quiere decir que programáticamente existe una forma de separar o agrupar los componentes.
 
+Cuando se habla de **distribución lógica**, se entiende que la separación se realiza por "capas", mientras que en la **distribución física** se usa el término de separación por "niveles". La separación por capas y niveles es parte de la arquitectura del sistema, y es definida por el _arquitecto_ de la aplicación.
 
+Las aplicaciones distribuidas independientemente  de su arquitectura, comparten ciertas caracteristicas como son:
 
+- Concurrencia
+- Topologia de red
+- Ubicacion de la lógica
+- Homogeneidad de las plataformas
+- Seguridad
 
+<p align="center">
+  <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/computaciondistribuida.jpg" width="400"/>
+</p>
+  
 
+[[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/Documentos/Procesos.md#contenidos)  
+  
+  
+  
+  
+- - -  
+  
+  
 
 
 
