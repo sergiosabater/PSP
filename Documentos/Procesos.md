@@ -126,7 +126,7 @@ Los hilos nos permiten `aprovechar la existencia de más de un procesador en el 
 
 Ejemplo de implementación de hilos en Java:
 
-Extendiendo la clase Thread
+**Extendiendo la clase Thread**
 
 ```java
 public class NumberThread extends Thread {
@@ -153,6 +153,43 @@ public class Numbers {
     }
   }
 
+```
+  
+  
+**Extendiendo el Interfaz Runnable**
+
+```java
+public class NumberRunnable implements Runnable {
+    int num;
+     
+    public NumberRunnable(int n){
+        num = n;
+    }
+     
+    public void run(){
+        for (int k=0; k < 200; k++){
+            System.out.print(num);
+        }
+    }
+}
+```
+  
+  
+```java
+public class Numbers {
+	public static void main(String[] args) {
+	// Con interface Runnable podemos convertir en hilos las clases creadas anteriormente
+ 
+	Thread nt1, nt2, nt3, nt4, nt5, nt6;
+ 
+	nt1 = new Thread(new NumberRunnable(71)); nt1.start();
+	nt2 = new Thread(new NumberRunnable(72)); nt2.start();
+	nt3 = new Thread(new NumberRunnable(73)); nt3.start();
+	nt4 = new Thread(new NumberRunnable(74)); nt4.start();
+	nt5 = new Thread(new NumberRunnable(75)); nt5.start();
+	nt6 = new Thread(new NumberRunnable(76)); nt6.start();
+	}
+}
 ```
 
 Como comentamos anteriormente, los hilos de un mismo proceso comparten el mismo espacio de memoria, por tanto, dos hilos del mismo proceso pueden compartir estructuras de datos y variables.
