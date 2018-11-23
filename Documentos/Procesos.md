@@ -124,7 +124,7 @@ Los **estados de un hilo** son iguales a los de un proceso, por tanto, un hilo p
 
 Los hilos nos permiten `aprovechar la existencia de más de un procesador en el sistema`, puesto que podemos asignar un hilo a cada uno de los procesadores que haya disponibles. Si hay más de un procesador, dos hilos de un mismo proceso pueden estar en estado activo simultáneamente. Por tanto, la programación con hilos nos permite sacar partido de las arquitecturas de multiprocesador que predominan en la actualidad.
 
-Ejemplo de implementación de hilos en Java:
+### Ejemplo de implementación de hilos en Java:
 
 **Extendiendo la clase Thread**
 
@@ -194,13 +194,13 @@ public class Numbers {
 
 Como comentamos anteriormente, los hilos de un mismo proceso comparten el mismo espacio de memoria, por tanto, dos hilos del mismo proceso pueden compartir estructuras de datos y variables.
 
-Veamos un ejemplo de multiprogramación:
+Veamos un ejemplo de multiprogramación en una imagen:
 
 <p align="center">
   <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/Uso_del_procesador_hilos.svg.png" width="600"/>
 </p>
 
-Con multiprogramación podemos ejecutar diferentes procesos a la vez en una CPU. Incluso podemos desdoblar un determinado proceso en diferentes hilos.
+Con multiprogramación podemos ejecutar diferentes procesos a la vez en una CPU, pero además podemos desdoblar un determinado proceso en diferentes hilos.
   
   
 
