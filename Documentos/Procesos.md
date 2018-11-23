@@ -94,6 +94,28 @@ Un proceso informático, por otra parte, puede atravesar diferentes estados. Pue
 - **Bloqueado** (Su ejecución requiere que se realice otro evento)
 - **Listo o preparado** (Cuando libera el microprocesador para que pueda dedicarse a otro proceso)
 
+### Creacion de procesos en Java con la clase ProcessBuilder
+
+```java
+public class Uno {
+ 
+    public static void main(String[] args) throws IOException, InterruptedException{
+ 
+        try
+            {
+        ProcessBuilder pb = new ProcessBuilder("open","/Applications");
+        pb.start();
+ 
+            }catch(Exception e)
+        {
+            System.out.println("Exception " + e);
+        }
+ 
+        }
+ 
+}
+```
+
 Estados por los que atraviesa un proceso en su ciclo de vida:
 
 <p align="center">
@@ -178,7 +200,7 @@ public class NumberRunnable implements Runnable {
 ```java
 public class Numbers {
 	public static void main(String[] args) {
-	// Con interface Runnable podemos convertir en hilos las clases creadas anteriormente
+	// Con el interface Runnable podemos convertir clases en hilos
  
 	Thread nt1, nt2, nt3, nt4, nt5, nt6;
  
