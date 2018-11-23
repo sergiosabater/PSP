@@ -150,7 +150,6 @@ public class Numbers {
 		n3 = new NumberThread(3); n3.start();
 		n4 = new NumberThread(4); n4.start();
 		n5 = new NumberThread(5); n5.start();
-    n6 = new NumberThread(6); n6.start();
     }
   }
 
