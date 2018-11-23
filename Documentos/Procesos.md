@@ -93,17 +93,28 @@ Un proceso informático, por otra parte, puede atravesar diferentes estados. Pue
 - **En ejecución** (Cuando está utilizando el microprocesador)
 - **Bloqueado** (Su ejecución requiere que se realice otro evento)
 - **Listo o preparado** (Cuando libera el microprocesador para que pueda dedicarse a otro proceso)
+  
+  
 
-### Creacion de procesos en Java con la clase ProcessBuilder
+### Estados por los que atraviesa un proceso en su ciclo de vida:
+
+<p align="center">
+  <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/estados%20de%20procesos.png" width="600"/>
+</p>
+
+Por último, la **terminación** de un proceso es la última fase de su vida. La terminación puede darse por diferentes razones, las cuales se manifiestan a través del estado que atraviesa el proceso al momento de ser eliminado. Puede ser por salida normal, salida por error, por error fatal o eliminado por otro proceso.
+  
+  
+### Creacion de procesos en Java usando la clase ProcessBuilder
 
 ```java
-public class Uno {
+public class EjemploProceso {
  
     public static void main(String[] args) throws IOException, InterruptedException{
  
         try
             {
-	    	//Ejecutamos un proceso del explorador Internet Explorer
+	    	//Ejecutamos un proceso del explorador Internet Explorer en Windows
 		ProcessBuilder pb = new ProcessBuilder("C://Program Files//internet explorer//iexplore.exe");
 		pb.start();
  
@@ -116,14 +127,6 @@ public class Uno {
  
 }
 ```
-
-Estados por los que atraviesa un proceso en su ciclo de vida:
-
-<p align="center">
-  <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/estados%20de%20procesos.png" width="600"/>
-</p>
-
-Por último, la **terminación** de un proceso es la última fase de su vida. La terminación puede darse por diferentes razones, las cuales se manifiestan a través del estado que atraviesa el proceso al momento de ser eliminado. Puede ser por salida normal, salida por error, por error fatal o eliminado por otro proceso.
 
 [[↑ Contenidos]](https://github.com/sergiosabater/PSP/blob/master/Documentos/Procesos.md#contenidos)  
   
