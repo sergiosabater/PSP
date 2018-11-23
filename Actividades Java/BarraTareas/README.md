@@ -61,8 +61,8 @@ public class BarraTareas extends JFrame {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
-		JButton button = new JButton("");
-		button.addActionListener(new ActionListener() {
+		JButton buttonIExplorer = new JButton("");
+		buttonIExplorer.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				try
 				{
@@ -77,12 +77,12 @@ public class BarraTareas extends JFrame {
 				}
 			}
 		});
-		button.setIcon(new ImageIcon(BarraTareas.class.getResource("/imagenes/internet_explorer.png")));
-		button.setBounds(10, 11, 148, 126);
-		contentPane.add(button);
+		buttonIExplorer.setIcon(new ImageIcon(BarraTareas.class.getResource("/imagenes/internet_explorer.png")));
+		buttonIExplorer.setBounds(10, 11, 148, 126);
+		contentPane.add(buttonIExplorer);
 		
-		JButton button_1 = new JButton("");
-		button_1.addActionListener(new ActionListener() {
+		JButton buttonCalculadora = new JButton("");
+		buttonCalculadora.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try
 				{
@@ -98,12 +98,12 @@ public class BarraTareas extends JFrame {
 				
 			}
 		});
-		button_1.setIcon(new ImageIcon(BarraTareas.class.getResource("/imagenes/calculator_alt.png")));
-		button_1.setBounds(168, 11, 148, 126);
-		contentPane.add(button_1);
+		buttonCalculadora.setIcon(new ImageIcon(BarraTareas.class.getResource("/imagenes/calculator_alt.png")));
+		buttonCalculadora.setBounds(168, 11, 148, 126);
+		contentPane.add(buttonCalculadora);
 		
-		JButton button_2 = new JButton("");
-		button_2.addActionListener(new ActionListener() {
+		JButton buttonWord = new JButton("");
+		buttonWord.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try
 				{
@@ -118,12 +118,12 @@ public class BarraTareas extends JFrame {
 				}
 			}
 		});
-		button_2.setIcon(new ImageIcon(BarraTareas.class.getResource("/imagenes/word_2013.png")));
-		button_2.setBounds(326, 11, 148, 126);
-		contentPane.add(button_2);
+		buttonWord.setIcon(new ImageIcon(BarraTareas.class.getResource("/imagenes/word_2013.png")));
+		buttonWord.setBounds(326, 11, 148, 126);
+		contentPane.add(buttonWord);
 		
-		JButton button_3 = new JButton("");
-		button_3.addActionListener(new ActionListener() {
+		JButton buttonMediaPlayer = new JButton("");
+		buttonMediaPlayer.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try
 				{
@@ -139,9 +139,10 @@ public class BarraTareas extends JFrame {
 				
 			}
 		});
-		button_3.setIcon(new ImageIcon(BarraTareas.class.getResource("/imagenes/itunes_alt.png")));
-		button_3.setBounds(484, 11, 148, 126);
-		contentPane.add(button_3);
+		buttonMediaPlayer.setIcon(new ImageIcon(BarraTareas.class.getResource("/imagenes/itunes_alt.png")));
+		buttonMediaPlayer.setBounds(484, 11, 148, 126);
+		contentPane.add(buttonMediaPlayer);
 	}
 }
+
 ```
