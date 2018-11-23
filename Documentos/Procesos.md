@@ -103,15 +103,16 @@ public class Uno {
  
         try
             {
-        ProcessBuilder pb = new ProcessBuilder("open","/Applications");
-        pb.start();
+	    	//Ejecutamos un proceso del explorador Internet Explorer
+		ProcessBuilder pb = new ProcessBuilder("C://Program Files//internet explorer//iexplore.exe");
+		pb.start();
  
             }catch(Exception e)
         {
             System.out.println("Exception " + e);
         }
- 
-        }
+	
+	}
  
 }
 ```
