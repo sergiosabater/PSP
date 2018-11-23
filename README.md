@@ -13,4 +13,9 @@
 - [Validar NIF](https://github.com/sergiosabater/PSP/blob/master/Actividades%20Java/ValidarNIF/ValidarNIF.java)
 - [Herencia](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/EjercicioConHerencia)
 - [Buscador de aeropuertos](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/BuscadorAeropuertos)
+- [Ejemplo hilos en Java](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/EjemploHilos)
+- [Desarrollar una barra de tareas (con Swing)](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/EjemploHilos)
+- [Abrir aplicaciones del SO (con Swing)](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/EjemploHilos)
+
+
 
