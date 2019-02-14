@@ -20,7 +20,7 @@
 
 ### Segunda evaluación
 
-- [YouTube Downloader - Programa con hilos](https://github.com/sergiosabater/PSP/blob/master/Actividades%20Java/YouTubeDownloader/README.md)
+- [YouTube Downloader - Programa con hilos](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/YouTubeDownloader)
 
 
 
