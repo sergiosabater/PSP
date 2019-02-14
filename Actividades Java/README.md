@@ -16,6 +16,6 @@
 
 #### Segunda evaluación
 
-- Actividad 1: [Programa con hilos](https://github.com/sergiosabater/PSP/blob/master/Actividades%20Java/Quiniela/Quiniela.java)
+- Actividad 1: [YouTube Downloader - Programado con hilos](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/YouTubeDownloader)
 
 
