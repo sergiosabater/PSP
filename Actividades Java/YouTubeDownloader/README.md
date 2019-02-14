@@ -1,4 +1,4 @@
-# YouTube Downloader - Aplicación para descargar varios vídeos de YouTube simultáneamente
+# YouTube Downloader - Aplicación para descargar vídeos de YouTube simultáneamente
 
 La aplicación ha sido desarrollada en Java. Sirve para realizar descargas de vídeos simultáneamente, utilizando para ello la programación en hilos de ejecución.
 
