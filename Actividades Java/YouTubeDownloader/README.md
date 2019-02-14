@@ -15,7 +15,7 @@ La aplicación ha sido desarrollada en Java. Sirve para realizar múltiples desc
 ## Interfaz del programa
 
 
-Ir a [código de la aplicación](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/BuscadorAeropuertos)
+Ir a [código de la aplicación](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/YouTubeDownloader)
 
 
 
