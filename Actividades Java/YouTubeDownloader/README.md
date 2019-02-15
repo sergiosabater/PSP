@@ -71,7 +71,7 @@ También disponemos de un método llamado **crearDirectorio()**, el cual comprue
 
 Método crearDirectorio():
 
-´´´java
+```java
 public static void crearDirectorio() {
 		
 		File folder = new File (path);
@@ -90,11 +90,11 @@ public static void crearDirectorio() {
 			valid = true;
 		}
 	}
-´´´
+```
 
 - La clase **DownloadThread** la usamos para crear un hilo de ejecución del programa de descarga. El constructor de la clase recibe varios parámetros, los cuales son la URL, el path donde se guardará el archivo de vídeo descargado, la barra de estado correspondiente a esa URL, y la label asociada también a la misma URL. Controlamos la excepción de si no se produce la descarga del vídeo, informando al usuario a través de un mensaje.
 
-Constructor y sobreescritura del método run() de la clase DownloadThread:
+	Constructor y sobreescritura del método run() de la clase DownloadThread:
 
 ```java
 public DownloadThread(String url, String path, Object bar, Object label ) {
