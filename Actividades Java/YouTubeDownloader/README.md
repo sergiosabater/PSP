@@ -45,9 +45,11 @@ Así como queda el archivo pom.xml importando las dependencias de VGet:
 
 Hemos creado cuatro clases, una de ellas es la clase principal, la **Main**, desde la cual se ejecuta el programa.
 
-La clase **Interfaz** dispone de la interfaz del programa. Al pulsar sobre los diferentes botones se ejecutarán los hilos correspondientes a cada una de las URL que están ingresadas en los TextBox. Para ello hemos controlado los posibles errores que puedan producirse si el usuario no introduce una URL y pulsa sobre Descargar. En este caso una variable booleana nos ayudará para controlar si existe texto dentro del campo URL. También disponemos de un método llamado **crearDirectorio()**, el cual comprueba si el directorio existe, y si no se pregunta al usuario si desea crearlo. En caso afirmativo, lo crea y establece la variable booleana *valid* a 'true' (que nos sirve para controlar que todo es válido antes de iniciar los hilos).
+- La clase **Interfaz** dispone de la interfaz del programa. Al pulsar sobre los diferentes botones se ejecutarán los hilos correspondientes a cada una de las URL que están ingresadas en los TextBox. Para ello hemos controlado los posibles errores que puedan producirse si el usuario no introduce una URL y pulsa sobre Descargar. En este caso una variable booleana nos ayudará para controlar si existe texto dentro del campo URL. También disponemos de un método llamado **crearDirectorio()**, el cual comprueba si el directorio existe, y si no se pregunta al usuario si desea crearlo. En caso afirmativo, lo crea y establece la variable booleana *valid* a 'true' (que nos sirve para controlar que todo es válido antes de iniciar los hilos).
 
-La clase **DownloadThread** la usamos para crear un hilo de ejecución del programa de descarga. El constructor de la clase recibe varios parámetros, los cuales son la URL, el path donde se guardará el archivo de vídeo descargado, la barra de estado correspondiente a esa URL, y la label asociada también a la misma URL.
+- La clase **DownloadThread** la usamos para crear un hilo de ejecución del programa de descarga. El constructor de la clase recibe varios parámetros, los cuales son la URL, el path donde se guardará el archivo de vídeo descargado, la barra de estado correspondiente a esa URL, y la label asociada también a la misma URL. Controlamos la excepción de si no se produce la descarga del vídeo, informando al usuario a través de un mensaje.
+
+- La clase **Configuracion** es otra interfaz, una ventana que aparece al pulsar el botón 'Configuración'. Desde aquí podremos modificar la ruta de descarga del vídeo para poder introducir la que nosotros queramos.
 
   
   
