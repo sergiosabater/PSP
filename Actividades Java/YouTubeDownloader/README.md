@@ -137,7 +137,7 @@ La interfaz del programa es bastante intuitiva para el usuario. Ha sido creada e
   <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/Captura_02.JPG" width="400"/>
 </p>
 
-Adicionalmente, hemos agregado un botón llamado `Configuración` que nos permitirá modificar la ruta o path donde se almacenará el vídeo que vayamos a descargar.
+Adicionalmente, hemos agregado un botón llamado `Configuración` que nos lleva a una nueva ventana que nos permitirá modificar la ruta o *path* donde se almacenará el vídeo que vayamos a descargar.
 
 <p align="center">
   <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/Captura_03.JPG" width="500"/>
