@@ -47,7 +47,7 @@ Hemos creado cuatro clases, una de ellas es la clase principal, la **Main**, des
 
 - La clase **Interfaz** dispone de la interfaz del programa. Al pulsar sobre los diferentes botones se ejecutarán los hilos correspondientes a cada una de las URL que están ingresadas en los TextBox. Para ello hemos controlado los posibles errores que puedan producirse si el usuario no introduce una URL y pulsa sobre Descargar. En este caso una variable booleana nos ayudará para controlar si existe texto dentro del campo URL.
 
-Fragmento de código que muestra cómo se implementa la acción de un botón:
+	Fragmento de código que muestra cómo se implementa la acción de un botón:
 
 ```java
 btnDescargar1.addActionListener(new ActionListener() {
@@ -65,7 +65,6 @@ btnDescargar1.addActionListener(new ActionListener() {
 			}
 		});
 ```
-
 
 También disponemos de un método llamado **crearDirectorio()**, el cual comprueba si el directorio existe, y si no se pregunta al usuario si desea crearlo. En caso afirmativo, lo crea y establece la variable booleana *valid* a 'true' (que nos sirve para controlar que todo es válido antes de iniciar los hilos).
 
