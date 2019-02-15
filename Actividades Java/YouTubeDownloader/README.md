@@ -133,7 +133,15 @@ public DownloadThread(String url, String path, Object bar, Object label ) {
 
 La interfaz del programa es bastante intuitiva para el usuario. Ha sido creada en Swing. En dicha interfaz aparecen cuatro diferentes GroupBox donde el usuario debe pegar la dirección URL correspondiente al vídeo de YouTube que desea descargar. Después, al pulsar el botón 'Descargar' comenzará el proceso de descarga, que iniciará con la ProgressBar o barra de progreso en color rojo. Cuando el proceso finalice, si todo se ha ejecutado correctamente, no se mostrará ningún error y la progress bar aparecerá en color verde. Cabe mencionar que se podran pulsar uno o varios botones a la vez y así realizar una descarga simultánea de varios vídeos.
 
+<p align="center">
+  <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/Captura_02.JPG" width="400"/>
+</p>
+
 Adicionalmente, hemos agregado un botón llamado `Configuración` que nos permitirá modificar la ruta o path donde se almacenará el vídeo que vayamos a descargar.
+
+<p align="center">
+  <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/Captura_03.JPG" width="500"/>
+</p>
 
 
 
