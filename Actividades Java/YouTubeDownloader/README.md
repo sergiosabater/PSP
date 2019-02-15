@@ -11,7 +11,7 @@ La aplicación ha sido desarrollada en Java. Sirve para realizar múltiples desc
 
 Para desarrollar la aplicación hemos utilizado las librerías de VGet para poder descargar los vídeos de YouTube. En este caso hemos optado por utilizar un proyecto Maven en Eclipse e importar las dependencias.
 
-Así como queda el archivo pom.xml importando las dependencias de VGet:
+Así es como queda el archivo pom.xml importando las dependencias de VGet:
 
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
