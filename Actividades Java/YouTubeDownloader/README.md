@@ -1,6 +1,6 @@
 # YouTube Downloader - Aplicación para descargar vídeos
 
-La aplicación ha sido desarrollada en Java. Sirve para realizar múltiples descargas de vídeos de YouTube a la vez, utilizando para ello la programación en hilos de ejecución.
+La aplicación ha sido desarrollada en Java. Sirve para realizar múltiples descargas de vídeos de YouTube a la vez, utilizando para ello la programación en hilos.
 
 <p align="center">
   <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/YouTubeDownloader.JPG" width="600"/>
