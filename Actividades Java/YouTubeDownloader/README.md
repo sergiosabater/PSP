@@ -108,21 +108,22 @@ public DownloadThread(String url, String path, Object bar, Object label ) {
 	public void run() {
 		
 		try {
-            String url = this.url;
-            String path = this.path;
-            this.progBar.setValue(0);
-            this.lbl.setText("Descargando...");
-            VGet v = new VGet(new URL(url), new File(path));
-            v.download();
-            this.lbl.setText("Completado!!!");
-            this.progBar.setBackground(Color.GREEN);
-            
-
-        } catch (Exception e) {
-        	this.lbl.setText("ERROR");
-        	JOptionPane.showMessageDialog(null, "Se ha producido un error. Compruebe la dirección URL", "ATENCIÓN", JOptionPane.ERROR_MESSAGE);
-        }
-	}
+	
+            		String url = this.url;
+            		String path = this.path;
+            		this.progBar.setValue(0);
+            		this.lbl.setText("Descargando...");
+            		VGet v = new VGet(new URL(url), new File(path));
+            		v.download();
+            		this.lbl.setText("Completado!!!");
+            		this.progBar.setBackground(Color.GREEN);
+	    
+        	} catch (Exception e) {
+        		this.lbl.setText("ERROR");
+        		JOptionPane.showMessageDialog(null, "Se ha producido un error. Compruebe la dirección URL",
+			"ATENCIÓN", JOptionPane.ERROR_MESSAGE);
+     	}
+}
 
 ```
 
