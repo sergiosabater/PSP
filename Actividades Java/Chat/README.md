@@ -1,4 +1,4 @@
-# Chat en Java
+# Chat Cliente / Servidor en Java
 ## Aplicación para chatear - Uso de Sockets e hilos de programación
 
 La aplicación ha sido desarrollada en Java, empleando una interfaz gráfica de usuario para hacerlo más amigable. Hemos empleado el uso de Sockets cliente-servidor, los cuales se comunican a través de objetos, con lo cual hemos unificado los enunciados de las actividades.
