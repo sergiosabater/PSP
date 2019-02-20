@@ -18,4 +18,4 @@ La aplicación ha sido desarrollada en Java, empleando una interfaz gráfica de 
 
 
 
-Ir a [código de la aplicación](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/WebScrapingJsoup)
+Ir a [código de la aplicación](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/Chat)
