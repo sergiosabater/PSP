@@ -40,6 +40,8 @@ Obtenemos el documento http mediante Jsoup, después realizamos el parseo de dic
 
 Debemos establecer el nodo principal desde el cual queremos iterar para obtener la información, en este caso es `food`, y vamos obteniendo de cada subnodo el contenido del texto. Después, asignamos ese resultado a un String y finalmente lo mostramos en un TextArea en la interfaz.
 
+Todo ello se realiza al presionar el botón `Extraer`, mediante una acción programada en JavaFX con SceneBuilder.
+
 
 
 Ir a [código de la aplicación](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/YouTubeDownloader)
