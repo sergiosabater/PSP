@@ -16,6 +16,9 @@
 
 #### Segunda evaluación
 
-- Actividad 1: [YouTube Downloader - Programado con hilos](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/YouTubeDownloader)
+- [Programación con hilos: Youtube Downloader App](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/YouTubeDownloader)
+- [Programación con Sockets: Escaneador de puertos](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/YouTubeDownloader)
+- [Programación con Sockets e hilos: Chat Cliente / Servidor en Java](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/YouTubeDownloader)
+- [Web Scraping con Jsoup (JavaFX)](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/YouTubeDownloader)
 
 
