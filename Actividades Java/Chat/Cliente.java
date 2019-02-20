@@ -21,7 +21,7 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.awt.event.ActionEvent;
 
-public class Cliente extends JFrame implements Runnable { //Implementamos el método Runnable para poder trabajar con hilos
+public class Cliente extends JFrame implements Runnable { //Implementamos la interfaz Runnable para poder trabajar con hilos
 
 	private JPanel contentPane;
 	private JTextField txtNick;
