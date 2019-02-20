@@ -12,7 +12,14 @@ La aplicación ha sido desarrollada en Java, empleando una interfaz gráfica de 
 </p>
 
 
-## Desarrollo de la aplicación
+## Funcionamiento de la aplicación
+Desde la aplicación Cliente, debemos introducir nuestra IP y la IP del servidor. (En las fotos de ejemplo es la IP es la misma pues se trata del mismo ordenador).
+
+Una vez realizado esto, debemos introducir nuestro nick de usuario y un mensaje. Al pulsar el botón enviar, se envia un objeto hacia el Servidor que contiene toda la información que le hemos suministrado desde el cliente. Dicho objeto se ha definido con el nombre de **Paquete**. El Servidor recibe dicho paquete y lo descompone, extrayendo de él el nickname y el mensaje. También identifica la IP de origen, porque es ahí donde debe devolver el mensaje. Una vez que ha recibido el objeto, le añade al mensaje de dicho objeto lo siguiente: `Servidor: Mensaje rebicido OK`, y lo manda de vuelta al Cliente. De esta forma cuando el cliente recibe el objeto, verá en su área de texto que el servidor le ha respondido.
+
+Es una forma de ver cómo se pueden comunicar sockets mediante objetos implementando un chat.
+
+
 
 
 
