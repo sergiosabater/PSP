@@ -22,7 +22,8 @@ Fragmento de código donde se realiza el parseo del XML utilizando la librería 
         
         String texto = "";
 
-        Document doc = Jsoup.connect("https://www.w3schools.com/xml/simple.xml").parser(Parser.xmlParser()).get();
+        Document doc = Jsoup.connect("https://www.w3schools.com/xml/simple.xml")
+        .parser(Parser.xmlParser()).get();
         for (Element e : doc.select("food")) {
             
             texto = texto + "----------------------------------------\n";
@@ -35,6 +36,7 @@ Fragmento de código donde se realiza el parseo del XML utilizando la librería 
     }
 
 ```
+Obtenemos el documento http mediante Jsoup, después realizamos el parseo de dicho documento mediante el propio parser de JSoup, por lo que no ha sido necesario usar un parser externo.
 
 Debemos establecer el nodo principal desde el cual queremos iterar para obtener la información, en este caso es `food`, y vamos obteniendo de cada subnodo el contenido del texto. Después, asignamos ese resultado a un String y finalmente lo mostramos en un TextArea en la interfaz.
 
