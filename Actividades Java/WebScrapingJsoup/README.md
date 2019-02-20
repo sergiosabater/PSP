@@ -44,4 +44,4 @@ Todo ello se realiza al presionar el botón `Extraer`, mediante una acción prog
 
 
 
-Ir a [código de la aplicación](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/YouTubeDownloader)
+Ir a [código de la aplicación](https://github.com/sergiosabater/PSP/tree/master/Actividades%20Java/WebScrapingJsoup)
