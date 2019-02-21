@@ -1,7 +1,7 @@
 # Web Scraping con Jsoup
 ## Aplicación para parsear archivos XML desde web
 
-La aplicación ha sido desarrollada en Java, usando el entorno gráfico JavaFX. Sirve para extraer información de un archivo .xml procedente de una dirección URL.
+La aplicación ha sido desarrollada en Java, usando JavaFX para desarrollar su interfaz gráfica. Sirve para extraer información de un archivo .xml procedente de una dirección URL.
 
 <p align="center">
   <img src="https://github.com/sergiosabater/PSP/blob/master/Recursos/Imagenes/JSoup%20Scraping.PNG" width="600"/>
