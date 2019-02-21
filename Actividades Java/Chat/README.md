@@ -19,7 +19,7 @@ Una vez realizado esto, debemos introducir nuestro nick de usuario y un mensaje.
 
 Es una forma de ver cómo se pueden comunicar sockets mediante objetos implementando un chat.
 
-## Posibles mejoras
+### Posibles mejoras
 
 La aplicación no es perfecta y se puede mejorar. Se puede realizar una comprobación en los campos de las IP para que el formato sea el correcto. La configuración de las IP se puede establecer mediante un botón que dirija a una ventana de configuración.
 Hemos observado que al abrir varios clientes, los mensajes solo aparecen en una ventana de ellos si se mandan desde la misma IP. También el Cliente debería ver todo lo que se escribe en el Servidor desde su área de texto.
